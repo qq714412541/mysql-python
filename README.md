@@ -8,3 +8,4 @@
 
 #question:eror1130
 #solution:      update user set host='%' where host = 'localhost';    #提供远程访问
+#之后 flush pricilges    #意为更新
