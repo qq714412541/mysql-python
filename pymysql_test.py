@@ -32,7 +32,7 @@ sql3 = sql2 +'"'+ r +'"'
 #mycur.execute(sql)
 mycur.execute(sql1)
 mycur.execute(sql3)
-mycur.connection.commit()
+mycur.connection.commit()#必须写这段数据库才有显示
 
 print("1")
 print(type(d_json),type(d))
