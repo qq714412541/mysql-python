@@ -1,0 +1,6 @@
+mysql> create table jsondata
+    -> (
+    -> id int(6) auto_increment primary key,
+    -> data blob(1024),
+       reportid varchar(12)
+    -> );
