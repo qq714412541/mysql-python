@@ -16,3 +16,6 @@ flush privileges;
 #/sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT   写入修改
 /etc/init.d/iptables save   保存修改
 service iptables restart
+
+#开启远程访问
+https://www.cnblogs.com/weifeng1463/p/7941625.html
