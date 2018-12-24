@@ -19,3 +19,5 @@ service iptables restart
 
 #开启远程访问
 https://www.cnblogs.com/weifeng1463/p/7941625.html
+
+#安装教程 http://www.runoob.com/mysql/mysql-install.html
